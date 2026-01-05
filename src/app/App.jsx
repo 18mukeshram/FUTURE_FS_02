@@ -9,7 +9,7 @@ import OrderSuccess from "../pages/OrderSuccess";
 
 export default function App() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-zinc-50 text-zinc-900 antialiased">
       <Navbar />
       <main className="flex-1">
         <Routes>
