@@ -1,16 +1,78 @@
-# React + Vite
+# 🛒 Mini E-Commerce Storefront
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A portfolio-grade mini e-commerce application built as part of **Future Interns – Full Stack Web Development Task 2**.
 
-Currently, two official plugins are available:
+This project demonstrates real-world frontend architecture, state management, and clean UI/UX practices expected in modern startups.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+👉 https://future-fs-02-vert.vercel.app/
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- Product listing with responsive grid
+- Product detail pages with quantity selection
+- Shopping cart with:
+  - Add / remove items
+  - Update quantity
+  - Live price calculation
+- Checkout flow with form validation
+- Order confirmation screen
+- Fully responsive (mobile & desktop)
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend**: React.js (Vite)
+- **Styling**: Tailwind CSS
+- **State Management**: Zustand
+- **Routing**: React Router
+- **Data Source**: DummyJSON API
+- **Deployment**: Vercel
+
+---
+
+## 🧠 Architecture Highlights
+
+- Scalable folder structure
+- Separation of UI, pages, and global state
+- Derived state for totals (no duplication)
+- Clean component boundaries
+- Backend-ready architecture
+
+---
+
+## 📸 Screenshots
+
+![Home](./screenshots/home.png)
+![Cart](./screenshots/cart.png)
+![Checkout](./screenshots/checkout.png)
+
+---
+
+## 📦 Installation & Setup
+
+```bash
+git clone https://github.com/18mukeshram/FUTURE_FS_02
+cd FUTURE_FS_02
+npm install
+npm run dev
+📌 Notes
+Payments are simulated (no real transactions).
+
+The project is designed to be easily extended with authentication and backend services.
+
+## 👤 Author
+Bellamkonda Sai Mukesh Ram
+
+GitHub: https://github.com/18mukeshram
+
+Portfolio: https://mukesh-portfolio-main.vercel.app
+
+LinkedIn: https://linkedin.com/in/bellamkonda-sai-mukesh-ram-60619731b
+```
