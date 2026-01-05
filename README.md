@@ -51,7 +51,7 @@ This project demonstrates real-world frontend architecture, state management, an
 
 ![Home](./screenshots/home.png)
 ![Cart](./screenshots/cart.png)
-![Checkout](./screenshots/checkout.png)
+![Checkout](./screenshots/product_details.png)
 
 ---
 
