@@ -1,7 +1,9 @@
 export default function App() {
   return (
-    <div className="min-h-screen bg-zinc-50 text-zinc-900">
-      {/* navbar + routes */}
+    <div className="min-h-screen bg-black text-white flex items-center justify-center">
+      <h1 className="text-4xl font-extrabold tracking-tight">
+        Tailwind is working 🔥
+      </h1>
     </div>
   );
 }
