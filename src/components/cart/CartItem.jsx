@@ -19,7 +19,7 @@ export default function CartItem({ item }) {
   return (
     <div className="flex items-center gap-4 border-b border-zinc-200 py-4">
       {/* Image */}
-      <div className="w-20 h-20 bg-zinc-100 rounded-md flex items-center justify-center">
+      <div className="w-8 h-8 flex items-center justify-center border rounded-full hover:bg-zinc-100 transition">
         <img
           src={item.thumbnail}
           alt={item.title}
@@ -40,14 +40,17 @@ export default function CartItem({ item }) {
 
           <span className="font-medium">{item.quantity}</span>
 
-          <button onClick={handleIncrease} className="px-2 py-1 border rounded">
+          <button
+            onClick={handleIncrease}
+            className="w-8 h-8 flex items-center justify-center border rounded-full hover:bg-zinc-100 transition"
+          >
             +
           </button>
         </div>
       </div>
 
       {/* Total */}
-      <div className="font-semibold">
+      <div className="font-semibold text-zinc-800">
         ${(item.price * item.quantity).toFixed(2)}
       </div>
     </div>
