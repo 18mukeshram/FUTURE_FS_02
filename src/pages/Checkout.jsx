@@ -55,7 +55,7 @@ export default function Checkout() {
             placeholder="Full Name"
             value={form.name}
             onChange={handleChange}
-            className="w-full border rounded px-3 py-2"
+            className="w-full border border-zinc-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500"
           />
 
           <input
@@ -64,7 +64,7 @@ export default function Checkout() {
             placeholder="Email"
             value={form.email}
             onChange={handleChange}
-            className="w-full border rounded px-3 py-2"
+            className="w-full border border-zinc-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500"
           />
 
           <input
@@ -72,7 +72,7 @@ export default function Checkout() {
             placeholder="Address"
             value={form.address}
             onChange={handleChange}
-            className="w-full border rounded px-3 py-2"
+            className="w-full border border-zinc-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500"
           />
 
           <div className="grid grid-cols-2 gap-4">
@@ -81,7 +81,7 @@ export default function Checkout() {
               placeholder="City"
               value={form.city}
               onChange={handleChange}
-              className="w-full border rounded px-3 py-2"
+              className="w-full border border-zinc-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500"
             />
 
             <input
@@ -89,7 +89,7 @@ export default function Checkout() {
               placeholder="ZIP Code"
               value={form.zip}
               onChange={handleChange}
-              className="w-full border rounded px-3 py-2"
+              className="w-full border border-zinc-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500"
             />
           </div>
 
@@ -97,7 +97,7 @@ export default function Checkout() {
 
           <button
             type="submit"
-            className="w-full bg-indigo-600 text-white py-3 rounded-lg font-medium hover:bg-indigo-700 transition"
+            className="w-full bg-indigo-600 text-white py-3 rounded-xl font-medium hover:bg-indigo-700 transition"
           >
             Place Order
           </button>
