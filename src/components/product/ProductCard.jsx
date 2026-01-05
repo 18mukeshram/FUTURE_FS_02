@@ -5,9 +5,9 @@ export default function ProductCard({ product }) {
   const addItem = useCartStore((state) => state.addItem);
 
   return (
-    <div className="bg-white rounded-xl border border-zinc-200 overflow-hidden hover:shadow-md transition">
+    <div className="bg-white rounded-2xl border border-zinc-200 overflow-hidden hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200">
       <Link to={`/product/${product.id}`}>
-        <div className="aspect-square bg-zinc-100 flex items-center justify-center">
+        <div className="aspect-square bg-zinc-100 flex items-center justify-center p-4">
           <img
             src={product.thumbnail}
             alt={product.title}
@@ -29,9 +29,9 @@ export default function ProductCard({ product }) {
 
           <button
             onClick={() => addItem(product)}
-            className="px-3 py-1.5 text-sm font-medium bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition"
+            className="px-4 py-2 text-sm font-medium bg-indigo-600 text-white rounded-full hover:bg-indigo-700 transition"
           >
-            Add
+            Add to Cart
           </button>
         </div>
       </div>
